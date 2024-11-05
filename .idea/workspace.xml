@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ceba1165-1a0d-42fc-9384-8414ba96884e" name="Changes" comment="Add Assets and Metadata">
-      <change afterPath="$PROJECT_DIR$/context/Theme.tsx" afterDir="false" />
+    <list default="true" id="ceba1165-1a0d-42fc-9384-8414ba96884e" name="Changes" comment="Begin Setting up Theme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +96,7 @@
       <workItem from="1730651265633" duration="2000" />
       <workItem from="1730651372921" duration="4206000" />
       <workItem from="1730656563891" duration="9484000" />
-      <workItem from="1730838896257" duration="3029000" />
+      <workItem from="1730838896257" duration="4336000" />
     </task>
     <task id="LOCAL-00001" summary="Setup ESLint &amp; Prettier">
       <option name="closed" value="true" />
@@ -130,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730660596208</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Begin Setting up Theme">
+      <option name="closed" value="true" />
+      <created>1730842192699</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730842192699</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +149,7 @@
     <MESSAGE value="Setup &amp; Theme Tailwind CSS" />
     <MESSAGE value="Setup Fonts" />
     <MESSAGE value="Add Assets and Metadata" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Assets and Metadata" />
+    <MESSAGE value="Begin Setting up Theme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Begin Setting up Theme" />
   </component>
 </project>
