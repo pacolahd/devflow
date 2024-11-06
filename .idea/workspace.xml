@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ceba1165-1a0d-42fc-9384-8414ba96884e" name="Changes" comment="Continue Setting up Theme">
-      <change afterPath="$PROJECT_DIR$/components/navigation/navbar/Theme.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/navigation/navbar/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ui/button.tsx" afterDir="false" />
+    <list default="true" id="ceba1165-1a0d-42fc-9384-8414ba96884e" name="Changes" comment="Finish Setting up Light &amp; Dark Theme, Shadcn &amp; Navbar">
+      <change afterPath="$PROJECT_DIR$/app/(auth)/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(auth)/sign-in/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(auth)/sign-up/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +64,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mbunr\Development\projects\web\nextjs\devflow\app\(root)" />
+      <recent name="C:\Users\Mbunr\Development\projects\web\nextjs\devflow\app\(auth)" />
       <recent name="C:\Users\Mbunr\Development\projects\web\nextjs\devflow\app" />
       <recent name="C:\Users\Mbunr\Development\projects\web\nextjs\devflow" />
       <recent name="C:\Users\Mbunr\Development\projects\web\nextjs\devflow\app\fonts" />
@@ -100,7 +101,7 @@
       <workItem from="1730651372921" duration="4206000" />
       <workItem from="1730656563891" duration="9484000" />
       <workItem from="1730838896257" duration="4676000" />
-      <workItem from="1730853037781" duration="4157000" />
+      <workItem from="1730853037781" duration="5658000" />
     </task>
     <task id="LOCAL-00001" summary="Setup ESLint &amp; Prettier">
       <option name="closed" value="true" />
@@ -150,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730843600137</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Finish Setting up Light &amp; Dark Theme, Shadcn &amp; Navbar">
+      <option name="closed" value="true" />
+      <created>1730857642581</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1730857642581</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +172,7 @@
     <MESSAGE value="Add Assets and Metadata" />
     <MESSAGE value="Begin Setting up Theme" />
     <MESSAGE value="Continue Setting up Theme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Continue Setting up Theme" />
+    <MESSAGE value="Finish Setting up Light &amp; Dark Theme, Shadcn &amp; Navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Setting up Light &amp; Dark Theme, Shadcn &amp; Navbar" />
   </component>
 </project>
