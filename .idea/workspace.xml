@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ceba1165-1a0d-42fc-9384-8414ba96884e" name="Changes" comment="Finish Setting up Light &amp; Dark Theme, Shadcn &amp; Navbar">
-      <change afterPath="$PROJECT_DIR$/app/(auth)/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(auth)/sign-in/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(auth)/sign-up/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(root)/layout.tsx" afterDir="false" />
+    <list default="true" id="ceba1165-1a0d-42fc-9384-8414ba96884e" name="Changes" comment="Start Setting up Auth Routes">
+      <change afterPath="$PROJECT_DIR$/.prettierrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,26 +38,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mbunr/Development/projects/web/nextjs/votacle&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\Mbunr\\Development\\projects\\web\\nextjs\\devflow\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Mbunr\\Development\\projects\\web\\nextjs\\devflow\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "js.linters.configure.manually.selectedeslint": "true",
+    "last_opened_file_path": "C:/Users/Mbunr/Development/projects/web/nextjs/votacle",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "C:\\Users\\Mbunr\\Development\\projects\\web\\nextjs\\devflow\\node_modules\\eslint",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\Mbunr\\Development\\projects\\web\\nextjs\\devflow\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Users\\Mbunr\\Development\\projects\\web\\nextjs\\devflow\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Mbunr\Development\projects\web\nextjs\devflow\app\(root)" />
@@ -101,7 +98,13 @@
       <workItem from="1730651372921" duration="4206000" />
       <workItem from="1730656563891" duration="9484000" />
       <workItem from="1730838896257" duration="4676000" />
-      <workItem from="1730853037781" duration="5658000" />
+      <workItem from="1730853037781" duration="22279000" />
+      <workItem from="1734887572813" duration="6244000" />
+      <workItem from="1737223457598" duration="2607000" />
+      <workItem from="1737239848713" duration="1677000" />
+      <workItem from="1737242727231" duration="1749000" />
+      <workItem from="1737250585761" duration="109000" />
+      <workItem from="1737488846238" duration="6519000" />
     </task>
     <task id="LOCAL-00001" summary="Setup ESLint &amp; Prettier">
       <option name="closed" value="true" />
@@ -159,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730857642581</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Start Setting up Auth Routes">
+      <option name="closed" value="true" />
+      <created>1730859618704</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1730859618704</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +184,7 @@
     <MESSAGE value="Begin Setting up Theme" />
     <MESSAGE value="Continue Setting up Theme" />
     <MESSAGE value="Finish Setting up Light &amp; Dark Theme, Shadcn &amp; Navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Setting up Light &amp; Dark Theme, Shadcn &amp; Navbar" />
+    <MESSAGE value="Start Setting up Auth Routes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start Setting up Auth Routes" />
   </component>
 </project>
