@@ -13,9 +13,9 @@ const AuthLayout = ({ children }: AuthLayoutProps) => {
       <section className="light-border background-light800_dark300  min-w-full rounded-[10px] border px-4 py-10 shadow-md sm:min-w-[520px] sm:px-8">
         <div className="flex items-center justify-between gap-2">
           <div className="space-y-2.5">
-            <h1 className="h2-bold text-dark100_light900">Join DevFlow</h1>
+            <h1 className="h2-bold text-dark100_light900">Join Semesterise</h1>
             <p className="paragraph-regular text-dark500_light400">
-              To get your questions answered
+              To keep your semester smiling
             </p>
           </div>
           <Image

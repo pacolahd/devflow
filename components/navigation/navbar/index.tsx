@@ -15,7 +15,7 @@ const NavaBar = () => {
           alt="DevFlow Logo"
         />
         <p className="h2-bold font-space-grotesk text-dark-100 dark:text-light-900 max-sm:hidden">
-          Dev<span className="text-primary-500">Flow</span>
+          Semes<span className="text-primary-500">terise</span>
         </p>
       </Link>
       <p>Global Search</p>
