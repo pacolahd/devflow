@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ceba1165-1a0d-42fc-9384-8414ba96884e" name="Changes" comment="Setup Auth Layouts, Social Auth Form, Next Auth, OAuth with Google and GitHub Providers">
-      <change afterPath="$PROJECT_DIR$/components/forms/AuthForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/validations.ts" afterDir="false" />
+    <list default="true" id="ceba1165-1a0d-42fc-9384-8414ba96884e" name="Changes" comment="Implement Auth Form">
+      <change afterPath="$PROJECT_DIR$/app/(root)/ask-question/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/collection/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/community/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/jobs/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/profile/[id]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/tags/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/navigation/navbar/MobileNavigation.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/navigation/navbar/NavLinks.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constants/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(auth)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(auth)/sign-in/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/sign-in/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(auth)/sign-up/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/sign-up/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/navigation/navbar/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/navigation/navbar/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/button.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -48,34 +51,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "js.linters.configure.manually.selectedeslint": "true",
-    "last_opened_file_path": "C:/Users/Mbunr/Development/projects/web/nextjs/votacle",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "C:\\Users\\Mbunr\\Development\\projects\\web\\nextjs\\devflow\\node_modules\\eslint",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\Mbunr\\Development\\projects\\web\\nextjs\\devflow\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "C:\\Users\\Mbunr\\Development\\projects\\web\\nextjs\\devflow\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;js.linters.configure.manually.selectedeslint&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mbunr/Development/projects/web/nextjs/votacle&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;C:\\Users\\Mbunr\\Development\\projects\\web\\nextjs\\devflow\\node_modules\\eslint&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\Mbunr\\Development\\projects\\web\\nextjs\\devflow\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Mbunr\\Development\\projects\\web\\nextjs\\devflow\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mbunr\Development\projects\web\nextjs\devflow\components\navigation\navbar" />
       <recent name="C:\Users\Mbunr\Development\projects\web\nextjs\devflow\app\(root)" />
       <recent name="C:\Users\Mbunr\Development\projects\web\nextjs\devflow\app\(auth)" />
       <recent name="C:\Users\Mbunr\Development\projects\web\nextjs\devflow\app" />
       <recent name="C:\Users\Mbunr\Development\projects\web\nextjs\devflow" />
-      <recent name="C:\Users\Mbunr\Development\projects\web\nextjs\devflow\app\fonts" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -120,7 +123,9 @@
       <workItem from="1737630612802" duration="193000" />
       <workItem from="1737630833016" duration="9386000" />
       <workItem from="1737650364883" duration="19407000" />
-      <workItem from="1737854963019" duration="44051000" />
+      <workItem from="1737854963019" duration="44345000" />
+      <workItem from="1738983959709" duration="812000" />
+      <workItem from="1739637016715" duration="12872000" />
     </task>
     <task id="LOCAL-00001" summary="Setup ESLint &amp; Prettier">
       <option name="closed" value="true" />
@@ -202,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737830948952</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Implement Auth Form">
+      <option name="closed" value="true" />
+      <created>1738982784311</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1738982784311</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +232,7 @@
     <MESSAGE value="Start Setting up Auth Routes" />
     <MESSAGE value="Update Next.js to version 15.1.5 which contains the security fix against Denial of Service (DoS) attacks when using Server Actions" />
     <MESSAGE value="Setup Auth Layouts, Social Auth Form, Next Auth, OAuth with Google and GitHub Providers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup Auth Layouts, Social Auth Form, Next Auth, OAuth with Google and GitHub Providers" />
+    <MESSAGE value="Implement Auth Form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement Auth Form" />
   </component>
 </project>
