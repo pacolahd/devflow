@@ -8,6 +8,7 @@ import React from "react";
 import { SheetClose } from "@/components/ui/sheet";
 import { sidebarLinks } from "@/constants";
 import { cn } from "@/lib/utils";
+import TooltipImage from "@/components/ui/tooltip-image";
 
 const NavLinks = ({ isMobileNav = false }: { isMobileNav?: boolean }) => {
   const pathName = usePathname();
@@ -35,14 +36,20 @@ const NavLinks = ({ isMobileNav = false }: { isMobileNav?: boolean }) => {
               "flex items-center justify-start gap-4 bg-transparent p-4"
             )}
           >
-            <Image
-              src={item.imgURL}
-              alt={item.label}
-              width={20}
-              height={20}
-              // This is using the cn() function to conditionally apply the "invert-colors" class only when isActive is false.
+            <TooltipImage
+              imgSrc={item.imgURL}
+              altText={item.label}
+              tooltipText={item.label}
               className={cn({ "invert-colors": !isActive })}
             />
+            {/*<Image*/}
+            {/*  src={item.imgURL}*/}
+            {/*  alt={item.label}*/}
+            {/*  width={20}*/}
+            {/*  height={20}*/}
+            {/*  // This is using the cn() function to conditionally apply the "invert-colors" class only when isActive is false.*/}
+            {/*  className={cn({ "invert-colors": !isActive })}*/}
+            {/*/>*/}
             <p
               className={cn(
                 isActive ? "base-bold" : "base-medium",
