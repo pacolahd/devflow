@@ -23,7 +23,7 @@ const TooltipWrapper = ({
     className,
                         }: TooltipWrapperProps) => {
     return(        showTooltip ? (<TooltipProvider>
-            <Tooltip delayDuration={250}>
+            <Tooltip delayDuration={700}>
                 <TooltipTrigger asChild>
                     <div className="relative">
                         {children}
@@ -38,7 +38,7 @@ const TooltipWrapper = ({
                                 hideAboveScreenSize
                                     ? `${hideAboveScreenSize}:hidden` // Tooltip will hide above the specified screen size
                                     : "", // If no hideAboveScreenSize is provided, tooltip will always show
-                                className
+                                className // Apply additional classes
                             )}
                         >
                             {tooltipText}
