@@ -23,7 +23,7 @@ const TooltipWrapper = ({
     className,
                         }: TooltipWrapperProps) => {
     return(        showTooltip ? (<TooltipProvider>
-            <Tooltip delayDuration={700}>
+            <Tooltip delayDuration={500}>
                 <TooltipTrigger asChild>
                     <div className="relative">
                         {children}
