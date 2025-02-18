@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ceba1165-1a0d-42fc-9384-8414ba96884e" name="Changes" comment="Implement Auth Form">
-      <change afterPath="$PROJECT_DIR$/components/navigation/LeftSidebar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ui/tooltip-image.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/tooltip-wrapper.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(root)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navigation/LeftSidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/navigation/LeftSidebar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/navigation/navbar/MobileNavigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/navigation/navbar/MobileNavigation.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/navigation/navbar/NavLinks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/navigation/navbar/NavLinks.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/tooltip-image.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/tooltip-image.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,7 @@
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "C:\\Users\\ryan.mbun\\Development\\projects\\web\\nextjs\\deflow\\node_modules\\prettier",
     "settings.editor.selected.configurable": "preferences.general",
-    "ts.external.directory.path": "C:\\Users\\ryan.mbun\\Development\\projects\\web\\nextjs\\deflow\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "C:\\Users\\Mbunr\\Development\\projects\\web\\nextjs\\devflow\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -80,7 +80,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.120" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23726.96" />
       </set>
     </attachedChunks>
   </component>
@@ -124,6 +124,7 @@
       <workItem from="1739637016715" duration="12872000" />
       <workItem from="1739818312423" duration="746000" />
       <workItem from="1739819083491" duration="9513000" />
+      <workItem from="1739845659185" duration="9953000" />
     </task>
     <task id="LOCAL-00001" summary="Setup ESLint &amp; Prettier">
       <option name="closed" value="true" />

@@ -28,7 +28,7 @@ const TooltipImage = ({
   className,
   tooltipSide = "right", // Default side "right"
   tooltipAlign = "center", // Default alignment "center"
-  tooltipSideOffset = 20, // Default offset 20
+  tooltipSideOffset = 30, // Default offset 30
 }: TooltipImageProps) => {
   return (
     <TooltipProvider>
@@ -45,7 +45,7 @@ const TooltipImage = ({
         <TooltipContent
           side={tooltipSide}
           align={tooltipAlign}
-          sideOffset={tooltipSideOffset}
+          sideOffset={tooltipSideOffset }
         >
           {tooltipText}
         </TooltipContent>

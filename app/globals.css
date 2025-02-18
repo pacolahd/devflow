@@ -11,6 +11,8 @@ body {
 }
 
 @layer utilities {
+
+
     .background-light850_dark100 {
         @apply bg-light-850 dark:bg-dark-100;
     }
@@ -293,37 +295,69 @@ body {
                 rgba(19, 22, 28, 0.7) 100%
         );
     }
+
+    .custom-scrollbar::-webkit-scrollbar {
+        width: 3px;
+        height: 3px;
+        border-radius: 2px;
+    }
+
+    .custom-scrollbar::-webkit-scrollbar-track {
+        @apply bg-gray-200 dark:bg-gray-800; /* Slight contrast for visibility */
+    }
+
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+        @apply bg-gray-500 dark:bg-gray-400 rounded-[50px]; /* Scrollbar itself */
+        max-height: 2px; /* Adjust this value to make the thumb smaller */
+
+    }
+
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+        @apply bg-gray-700 dark:bg-gray-300;
+    }
+
+    /* Hide scrollbar for Chrome, Safari, Opera */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge, and Firefox */
+    .no-scrollbar {
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+    }
+
 }
 
-.custom-scrollbar::-webkit-scrollbar {
-    width: 3px;
-    height: 3px;
-    border-radius: 2px;
-}
+/*.custom-scrollbar::-webkit-scrollbar {*/
+/*    width: 3px;*/
+/*    height: 3px;*/
+/*    border-radius: 2px;*/
+/*}*/
 
-.custom-scrollbar::-webkit-scrollbar-track {
-    background: #ffffff;
-}
+/*.custom-scrollbar::-webkit-scrollbar-track {*/
+/*    background: #ffffff;*/
+/*}*/
 
-.custom-scrollbar::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 50px;
-}
+/*.custom-scrollbar::-webkit-scrollbar-thumb {*/
+/*    background: #888;*/
+/*    border-radius: 50px;*/
+/*}*/
 
-.custom-scrollbar::-webkit-scrollbar-thumb:hover {
-    background: #555;
-}
+/*.custom-scrollbar::-webkit-scrollbar-thumb:hover {*/
+/*    background: #555;*/
+/*}*/
 
-/* Hide scrollbar for Chrome, Safari and Opera */
-.no-scrollbar::-webkit-scrollbar {
-    display: none;
-}
+/*!* Hide scrollbar for Chrome, Safari and Opera *!*/
+/*.no-scrollbar::-webkit-scrollbar {*/
+/*    display: none;*/
+/*}*/
 
-/* Hide scrollbar for IE, Edge and Firefox */
-.no-scrollbar {
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
-}
+/*!* Hide scrollbar for IE, Edge and Firefox *!*/
+/*.no-scrollbar {*/
+/*    -ms-overflow-style: none; !* IE and Edge *!*/
+/*    scrollbar-width: none; !* Firefox *!*/
+/*}*/
 
 .active-theme {
     filter: invert(53%) sepia(98%) saturate(3332%) hue-rotate(0deg)

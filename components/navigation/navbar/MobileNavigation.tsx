@@ -30,7 +30,8 @@ const MobileNavigation = () => {
         side="left"
         className="background-light900_dark200 border-none"
       >
-        <SheetTitle className="hidden">Navigation</SheetTitle>
+        {/* Instead of hidden class for the sheet title I used tailwind 'sr-only' class. It will hide it visually but will be available for screen readers */}
+        <SheetTitle className="sr-only">Navigation</SheetTitle>
         <Link href="/" className="flex items-center gap-1">
           <Image
             src="/images/site-logo.svg"
@@ -42,16 +43,23 @@ const MobileNavigation = () => {
             Semes<span className="text-primary-500">terise</span>
           </p>
         </Link>
-        <div className="no-scrollbar flex h-[calc(100vh-80px)] flex-col justify-between overflow-y-auto">
+
+        {/* Navigation Links and Auth Buttons Container */}
+
+        <div className="no-scrollbar flex h-full flex-col justify-between overflow-y-auto">
+
+          {/* Navigation Links */}
           <SheetClose asChild>
-            <section className="flex h-full flex-col gap-6 pt-16">
+            <section className="flex flex-col gap-6 pt-16">
               <NavLinks isMobileNav />
             </section>
           </SheetClose>
-          <div className="flex flex-col gap-3">
+
+          {/* Auth Buttons positioned at the bottom */}
+          <div className="flex flex-col gap-3 py-6">
             <SheetClose asChild>
               <Link href={ROUTES.SIGN_IN}>
-                <Button className="small-medium btn-secondary min-h-[41px] w-full rounded px-4 py-3 shadow-none">
+                <Button className="small-medium btn-secondary min-h-[41px] w-full rounded-lg px-4 py-3 shadow-none">
                   <span className="primary-text-gradient">Log In</span>
                 </Button>
               </Link>
