@@ -16,7 +16,7 @@ const NavaBar = () => {
           alt="DevFlow Logo"
         />
         <p className="h2-bold font-space-grotesk text-dark-100 dark:text-light-900 max-sm:hidden">
-          Semes<span className="text-primary-500">terise</span>
+          Ashesi<span className="text-primary-500">Overflow</span>
         </p>
       </Link>
       <p>Global Search</p>

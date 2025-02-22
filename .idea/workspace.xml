@@ -4,19 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ceba1165-1a0d-42fc-9384-8414ba96884e" name="Changes" comment="Modify Left Sidebar">
-      <change afterPath="$PROJECT_DIR$/components/cards/TagCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/navigation/RightSidebar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ui/badge.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constants/techMap.ts" afterDir="false" />
+    <list default="true" id="ceba1165-1a0d-42fc-9384-8414ba96884e" name="Changes" comment="Implement Right Sidebar with dynamic icons">
+      <change beforePath="$PROJECT_DIR$/.idea/devflow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/devflow.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(root)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/navigation/LeftSidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/navigation/LeftSidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navigation/RightSidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/navigation/RightSidebar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/navigation/navbar/MobileNavigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/navigation/navbar/MobileNavigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navigation/navbar/NavLinks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/navigation/navbar/NavLinks.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navigation/navbar/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/navigation/navbar/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/ui/tooltip-wrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/tooltip-wrapper.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constants/routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +126,7 @@
       <workItem from="1739819083491" duration="9513000" />
       <workItem from="1739845659185" duration="13052000" />
       <workItem from="1739893603168" duration="153000" />
-      <workItem from="1739893774105" duration="4802000" />
+      <workItem from="1739893774105" duration="16155000" />
     </task>
     <task id="LOCAL-00001" summary="Setup ESLint &amp; Prettier">
       <option name="closed" value="true" />
@@ -228,7 +224,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739856213614</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Implement Right Sidebar with dynamic icons">
+      <option name="closed" value="true" />
+      <created>1739898686798</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1739898686798</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +251,8 @@
     <MESSAGE value="Setup Auth Layouts, Social Auth Form, Next Auth, OAuth with Google and GitHub Providers" />
     <MESSAGE value="Implement Auth Form" />
     <MESSAGE value="Modify Left Sidebar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify Left Sidebar" />
+    <MESSAGE value="Implement Right Sidebar with dynamic icons" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement Right Sidebar with dynamic icons" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

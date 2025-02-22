@@ -38,14 +38,13 @@ const MobileNavigation = () => {
             alt="DevFlow Logo"
           />
           <p className="h2-bold font-space-grotesk text-dark-100 dark:text-light-900">
-            Semes<span className="text-primary-500">terise</span>
+            Ashesi<span className="text-primary-500">Overflow</span>
           </p>
         </Link>
 
         {/* Navigation Links and Auth Buttons Container */}
 
         <div className="no-scrollbar flex h-full flex-col justify-between overflow-y-auto">
-
           {/* Navigation Links */}
           <SheetClose asChild>
             <section className="flex flex-col gap-6 pt-16">

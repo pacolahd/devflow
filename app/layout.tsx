@@ -35,6 +35,7 @@ const RootLayout = async ({ children }: { children: ReactNode }) => {
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        {/* The link enables us to use the devicon library. */}
         <link
           rel="stylesheet"
           type="text/css"
