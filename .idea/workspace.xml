@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ceba1165-1a0d-42fc-9384-8414ba96884e" name="Changes" comment="Improve General Navigation, Add Ashesi-Related Questions and Tags to Right Sidebar">
-      <change afterPath="$PROJECT_DIR$/components/search/LocalSearch.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/url.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ceba1165-1a0d-42fc-9384-8414ba96884e" name="Changes" comment="Implement Local Search Bar">
       <change beforePath="$PROJECT_DIR$/app/(root)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constants/routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +119,7 @@
       <workItem from="1739819083491" duration="9513000" />
       <workItem from="1739845659185" duration="13052000" />
       <workItem from="1739893603168" duration="153000" />
-      <workItem from="1739893774105" duration="38983000" />
+      <workItem from="1739893774105" duration="39211000" />
     </task>
     <task id="LOCAL-00001" summary="Setup ESLint &amp; Prettier">
       <option name="closed" value="true" />
@@ -239,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740245603115</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Implement Local Search Bar">
+      <option name="closed" value="true" />
+      <created>1740404863230</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1740404863230</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +262,8 @@
     <MESSAGE value="Modify Left Sidebar" />
     <MESSAGE value="Implement Right Sidebar with dynamic icons" />
     <MESSAGE value="Improve General Navigation, Add Ashesi-Related Questions and Tags to Right Sidebar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improve General Navigation, Add Ashesi-Related Questions and Tags to Right Sidebar" />
+    <MESSAGE value="Implement Local Search Bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement Local Search Bar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
